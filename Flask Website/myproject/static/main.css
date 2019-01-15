@@ -8,10 +8,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #4e748a;
 }
 
-footer{position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+footer{width: 100%;
 	text-align: center;}
 
 a{color:#2562a6;}
