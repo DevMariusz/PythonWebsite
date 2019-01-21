@@ -15,10 +15,12 @@ def home():
     return render_template("home_page.html",value=num,title='Home')
     
 @app.route("/chat", methods=['GET', 'POST'])
+@login_required
 def chat():
     return render_template("chat_page.html",title='Chat')
 
 @app.route("/blog")
+@login_required
 def blog():
     posts = Post.query.all()
     return render_template("blog_page.html",posts=posts,title='Blog')
