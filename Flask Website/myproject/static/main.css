@@ -13,7 +13,16 @@ footer{padding:5px;}
 .footer{width: 100%;
 	text-align: center;}
 
-a{color:#2562a6;}
+a {color:#2562a6;}
+
+.postpages {text-align: center;}
+
+.sidebar{color:#a4ba93;}
+.sidebar:hover{color:#ffffff;}
+
+.btn{color:#ffffff;}
+
+
 
 .footertext{margin:0;}
 

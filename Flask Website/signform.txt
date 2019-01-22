@@ -1,0 +1,111 @@
+
+<form 
+  action="mailto:customstallsigns@gmail.com"
+  method="POST"
+  enctype="multipart/form-data"
+  name="EmailForm">
+
+
+
+
+<P>Name:    <INPUT TYPE="text" NAME="01name" SIZE="20"></P>
+<P>Address: <INPUT TYPE="text" NAME="02address" SIZE="30"> </P>
+<P><span style="padding-left:58px"><INPUT TYPE="text" NAME="03Address2" SIZE="30"></span></P>
+<P>Phone:   <INPUT TYPE="text" NAME="04Phone" SIZE="20"></P>
+<P>E-mail Address: <INPUT TYPE="text" NAME="05email" SIZE="28"></P>
+
+ORDER DETAILS: (Please fill out a form for each item you are ordering- Thank you)<BR>
+<P>Order Type:<BR>
+<INPUT TYPE="radio" NAME="06type" VALUE="Stallsign" CHECKED>Stall Sign<BR>
+<INPUT TYPE="radio" NAME="06type" VALUE="Painting">Painting<BR>
+<INPUT TYPE="radio" NAME="06type" VALUE="Brush">Brush<BR>
+<INPUT TYPE="radio" NAME="06type" VALUE="Whipholder">Whip Holder<BR>
+<INPUT TYPE="radio" NAME="06type" VALUE="Arenaletters">Arena Letters<BR></P>
+
+Please describe the details of your order<BR>
+(font, text color, sign color, horse style, horse color and all markings, etc.)<BR>
+
+<P>Font:    <INPUT TYPE="text" NAME="07Font" SIZE="47"></P>
+<P>Text Color:    <INPUT TYPE="text" NAME="08Textcolor" SIZE="40"></P> 
+
+
+Plaque Color(s):<BR>
+(Base Color and Outline Colors/prints etc.)<BR>
+
+
+<P>Base Color:    <INPUT TYPE="text" NAME="09Basecolor" SIZE="52"></P>
+<P>Outline Color:    <INPUT TYPE="text" NAME="1Outlinecolor" SIZE="50"></P>
+<P>Other Detail Notes<BR><TEXTAREA NAME="2detailnotes" ROWS="10" COLS="45"></TEXTAREA></P>
+
+Horse(s) Name:    <INPUT TYPE="text" NAME="3Horsename" SIZE="50"><BR>
+(Show Name and or Barn Name)<BR>
+
+
+
+
+
+
+<P>Placement of Names:<BR>
+<INPUT TYPE="radio" NAME="4Placement" VALUE="Center" CHECKED>Center<BR>
+<INPUT TYPE="radio" NAME="4Placement" VALUE="Top">Top<BR>
+<INPUT TYPE="radio" NAME="4Placement" VALUE="Bottom">Bottom<BR>
+<INPUT TYPE="radio" NAME="4Placement" VALUE="Left">Left<BR>
+<INPUT TYPE="radio" NAME="4Placement" VALUE="Right">Right<BR>
+Other:    <INPUT TYPE="text" NAME="5Placementother" SIZE="52"></P>
+
+
+
+
+
+
+
+
+Owners Name:    <INPUT TYPE="text" NAME="6Ownersname" SIZE="50"><BR>
+(Owners name is optional if you want your name on the sign.<BR> 
+Also let me know the placement of the owners name in the<BR> 
+Other detail notes section.) <BR>
+
+
+
+
+
+
+
+
+
+
+<P>Optional:<BR>
+<INPUT TYPE="checkbox" NAME="7Lovedby" VALUE="Lovedby"> Loved By<BR>
+<INPUT TYPE="checkbox" NAME="8Ownedby" VALUE="Ownedby"> Owned By<BR>
+Other:    <INPUT TYPE="text" NAME="9Optionalother" SIZE="52"></P>
+
+
+
+
+
+(If you want a picture of your Horse painted on the sign. Please e-mail a picture to me.)<BR>
+
+
+
+
+
+<BR>
+Date Need By:    <INPUT TYPE="text" NAME="xDate" SIZE="20"><BR>
+(Please contact me directly if you have a close deadline!)<BR>
+
+Must be paid in full before I can start on your order- Thank you<BR>
+
+
+<P><FONT COLOR=lightseagreen> Payment:<BR>
+<INPUT TYPE="radio" NAME="yfavorite" VALUE="PayPal" CHECKED>PayPal<BR>
+<INPUT TYPE="radio" NAME="yfavorite" VALUE="PersonalCheck">Personal Check<BR>
+<INPUT TYPE="radio" NAME="yfavorite" VALUE="moneyorder">Money Order<BR>
+<INPUT TYPE="radio" NAME="yfavorite" VALUE="Cash">Cash<BR>
+<INPUT TYPE="radio" NAME="yfavorite" VALUE="Giftcard">Gift Card<BR></P>
+
+<input type="submit" value="Email This Form"><INPUT TYPE="reset" VALUE="Start Over">
+
+
+
+
+</form>

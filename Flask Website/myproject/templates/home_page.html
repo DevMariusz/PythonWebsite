@@ -46,8 +46,41 @@
 	<br>
 	
 	<div>
-		Wait, how old am I? Nevermind, best not to think about it. <a href="{{ url_for('register') }}">Register</a> to see more...
+		Wait, how old am I? Nevermind, best not to think about it. 
+		
+		{% if current_user.is_authenticated %}
+			Check out the <a href="{{url_for('blog')}}">Blog</a>!
+		{% else %}
+			<a href="{{ url_for('register') }}">Register</a> or <a href="{{ url_for('login') }}">Login</a> to see more...
+		{% endif %}
+		
 	</div>
 	
 	
 {%endblock content%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
